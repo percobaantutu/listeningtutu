@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .parallax {
+        position: relative;
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+      }
+
+      .content {
+        position: fixed;
+        top: 20vh;
+        color: white;
+        font-size: 100px;
+        width: 100%;
+        text-align: center;
+        text-shadow: 1px 1px 3px black;
+      }
+
+      .mask {
+        width: 100%;
+        height: 100vh;
+      }
+
+      .mask svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+      }
+
+      .content-div {
+        height: 200vh;
+      }
+
+      .kotak {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parallax">
+      <div class="mask">
+        <div class="content">Restu Muhammad</div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0099ff"
+            fill-opacity="1"
+            d="M0,64L0,192L160,192L160,192L320,192L320,64L480,64L480,0L640,0L640,160L800,160L800,224L960,224L960,64L1120,64L1120,160L1280,160L1280,224L1440,224L1440,320L1280,320L1280,320L1120,320L1120,320L960,320L960,320L800,320L800,320L640,320L640,320L480,320L480,320L320,320L320,320L160,320L160,320L0,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="kotak">
+        <div class="mask"></div>
+      </div>
+    </div>
+
+    <div class="content-div"></div>
+  </body>
+</html>
