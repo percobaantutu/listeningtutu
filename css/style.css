@@ -17,6 +17,14 @@ header {
   overflow: hidden;
 }
 
+/* }
+
+.svg-1 {
+  height: 100%;
+  padding: 0;
+  width: 100%;
+} */
+
 /* header .efek {
   position: absolute;
   bottom: 0;
@@ -24,12 +32,30 @@ header {
   left: 0;
 } */
 
+header svg {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 35vh;
+  min-width: 100%;
+}
+
 header h1 {
   font-size: 80px;
 }
+
 nav {
   position: relative;
   z-index: 2;
+}
+
+nav .navigasi {
+  min-height: 50px;
+}
+
+nav button {
+  min-height: 50px;
+  min-width: 50px;
 }
 
 nav ul li:hover {
@@ -86,6 +112,14 @@ nav ul li:hover {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+#toefl svg {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 20vh;
+  min-width: 100%;
 }
 
 #homework {
