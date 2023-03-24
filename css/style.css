@@ -1,6 +1,6 @@
 body {
   font-family: "Exo 2", sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   overflow-x: hidden;
 }
 
@@ -91,9 +91,9 @@ nav ul li:hover {
   transform: scale(1.5);
 }
 
-#about h2 {
+/* #about h2 {
   font-size: 3em;
-}
+} */
 
 #toefl {
   position: absolute;
