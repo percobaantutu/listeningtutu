@@ -84,7 +84,7 @@ nav ul li:hover {
 .image-overlay-about {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.502), rgba(0, 0, 0, 1));
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
 }
 
 #about img:hover {
